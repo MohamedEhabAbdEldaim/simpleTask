@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/d4"
+        android:layout_marginTop="@dimen/d4"
+        android:layout_marginEnd="@dimen/d4"
+        android:orientation="horizontal"
+        android:id="@+id/item_video_view">
+
+        <TextView
+            android:id="@+id/item_video_txt_video_name"
+            style="@style/text_view_heder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</layout>

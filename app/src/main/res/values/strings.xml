@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">youtuube</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_playing_video">playingVideo</string>
+    <string name="btnsubscription">subscribed</string>
+    <string name="btnunsubscription">subscribe</string>
+    <string name="loaf_data">load data to room</string>
+
+</resources>

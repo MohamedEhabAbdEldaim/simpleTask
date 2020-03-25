@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/item_channel_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/d4"
+        android:layout_marginTop="@dimen/d4"
+        android:layout_marginEnd="@dimen/d4"
+        android:background="@drawable/item_channel_shape"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_channel_img_icon"
+            android:layout_width="@dimen/d50"
+            android:layout_height="@dimen/d50"
+            android:layout_margin="@dimen/d4"
+            android:padding="@dimen/d5" />
+
+        <TextView
+            android:id="@+id/item_channel_txt_channel_name"
+            style="@style/text_view_heder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/d5" />
+
+        <Button
+            android:id="@+id/item_channel_btn_sub"
+            android:layout_width="@dimen/d90"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/d4"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+</layout>
